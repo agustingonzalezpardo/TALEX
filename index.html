@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TALEX — Minutas legales por voz</title>
+<meta name="description" content="Grabe, transcriba y genere minutas legales en segundos. Humanizar a través de la tecnología.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <svg class="scale-mark" viewBox="0 0 200 200" aria-hidden="true">
+        <line x1="100" y1="18" x2="100" y2="150" />
+        <line x1="38" y1="42" x2="162" y2="42" />
+        <circle cx="100" cy="42" r="5" fill="currentColor" stroke="none"/>
+        <line x1="38" y1="42" x2="22" y2="86" />
+        <line x1="38" y1="42" x2="54" y2="86" />
+        <path d="M13 86 A25 25 0 0 0 63 86" fill="none"/>
+        <line x1="162" y1="42" x2="146" y2="86" />
+        <line x1="162" y1="42" x2="178" y2="86" />
+        <path d="M137 86 A25 25 0 0 0 187 86" fill="none"/>
+        <line x1="72" y1="150" x2="128" y2="150" />
+        <line x1="60" y1="168" x2="140" y2="168" />
+        <line x1="100" y1="150" x2="100" y2="168" />
+      </svg>
+      <span>TALEX<span class="nav__brand-dot">.</span></span>
+    </a>
+    <nav class="nav__links">
+      <a href="#inicio">Inicio</a>
+      <a href="#filosofia">Filosofía</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#planes">Planes</a>
+      <a href="#grabadora">Grabadora</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a href="#grabadora" class="btn btn--ghost btn--roll nav__cta">
+      <span class="btn__roll"><span class="btn__roll-track"><span class="btn__roll-line">Empezar a grabar</span><span class="btn__roll-line" aria-hidden="true">Empezar a grabar</span></span></span>
+      <span class="btn__arrow">
+        <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="9 5 19 5 19 15"/></svg>
+      </span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#inicio">Inicio</a>
+    <a href="#filosofia">Filosofía</a>
+    <a href="#como-funciona">Cómo funciona</a>
+    <a href="#planes">Planes</a>
+    <a href="#grabadora">Grabadora</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="hero__aura" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+  <svg class="hero__scale-bg" viewBox="0 0 200 200" aria-hidden="true">
+    <line x1="100" y1="18" x2="100" y2="150" />
+    <line x1="38" y1="42" x2="162" y2="42" />
+    <circle cx="100" cy="42" r="5" fill="currentColor" stroke="none"/>
+    <line x1="38" y1="42" x2="22" y2="86" />
+    <line x1="38" y1="42" x2="54" y2="86" />
+    <path d="M13 86 A25 25 0 0 0 63 86" fill="none"/>
+    <line x1="162" y1="42" x2="146" y2="86" />
+    <line x1="162" y1="42" x2="178" y2="86" />
+    <path d="M137 86 A25 25 0 0 0 187 86" fill="none"/>
+    <line x1="72" y1="150" x2="128" y2="150" />
+    <line x1="60" y1="168" x2="140" y2="168" />
+    <line x1="100" y1="150" x2="100" y2="168" />
+  </svg>
+
+  <div class="hero__inner">
+    <p class="eyebrow reveal">Para despachos y abogados independientes</p>
+    <h1 class="hero__title reveal">
+      Documentos que trabajan<br class="br-desktop">
+      más por usted
+    </h1>
+    <p class="hero__subtitle reveal">
+      Grabación, transcripción automática con IA y generación de<br class="br-desktop">
+      minutas legales en segundos.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="#grabadora" class="btn btn--primary btn--roll">
+        <span class="btn__roll"><span class="btn__roll-track"><span class="btn__roll-line">Grabar una minuta</span><span class="btn__roll-line" aria-hidden="true">Grabar una minuta</span></span></span>
+        <span class="btn__arrow">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="9 5 19 5 19 15"/></svg>
+        </span>
+      </a>
+      <a href="#filosofia" class="btn btn--text">Conocer la filosofía ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILOSOFÍA / POR QUÉ TALEX ============ -->
+<section class="philosophy" id="filosofia">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">Nuestra filosofía</p>
+    <h2 class="section__title philosophy__title reveal">Humanizar a través de la tecnología</h2>
+    <p class="philosophy__lead reveal">
+      La IA graba, transcribe, resume y genera el borrador del documento.
+      El abogado atiende a la persona: escucha con plena atención, sostiene
+      la mirada y construye la confianza que lo hace memorable.
+    </p>
+
+    <div class="philosophy__stats">
+      <div class="stat reveal">
+        <span class="stat__num">60&ndash;70%</span>
+        <span class="stat__label">del tiempo del abogado se pierde hoy en tareas documentales repetitivas</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num">0</span>
+        <span class="stat__label">plataformas legales en Chile resuelven hoy la atención dividida en la reunión</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat__num">28.000+</span>
+        <span class="stat__label">abogados habilitados en Chile son el mercado inicial de esta propuesta</span>
+      </div>
+    </div>
+
+    <blockquote class="philosophy__quote reveal">
+      "Fui con un abogado a pedir ayuda y tuve la sensación de estar hablando
+      con alguien que no podía dejar de mirar su computador."
+      — experiencia real de cliente jurídico
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ CÓMO FUNCIONA ============ -->
+<section class="how" id="como-funciona">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">El proceso</p>
+    <h2 class="section__title reveal">De la audiencia al expediente, sin transcribir a mano</h2>
+
+    <div class="how__grid">
+      <article class="how__step reveal">
+        <span class="how__num">01</span>
+        <h3>Grabe la sesión</h3>
+        <p>Presione el botón de grabación durante la reunión, llamada o audiencia. Sin instalar nada adicional.</p>
+      </article>
+      <article class="how__step reveal">
+        <span class="how__num">02</span>
+        <h3>La IA transcribe</h3>
+        <p>El audio se convierte en texto en tiempo real, identificando hablantes y datos clave de la conversación.</p>
+      </article>
+      <article class="how__step reveal">
+        <span class="how__num">03</span>
+        <h3>Reciba su minuta</h3>
+        <p>En menos de dos minutos: transcripción, resumen ejecutivo y borrador del documento listos para revisar.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANES ============ -->
+<section class="plans" id="planes">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">Suscripción</p>
+    <h2 class="section__title reveal">Un plan para cada etapa del despacho</h2>
+    <p class="plans__intro reveal">Modelo freemium: pruebe la experiencia de escuchar sin dividir la atención antes de comprometerse.</p>
+
+    <div class="plans__grid">
+      <article class="plan reveal">
+        <h3 class="plan__name">Gratuito</h3>
+        <p class="plan__price">$0 <span>CLP/mes</span></p>
+        <ul class="plan__list">
+          <li>3 clientes activos</li>
+          <li>30 min de transcripción/mes</li>
+          <li>Minutas básicas</li>
+          <li>Consentimiento digital</li>
+        </ul>
+        <p class="plan__profile">Estudiantes y abogados en inicio</p>
+      </article>
+
+      <article class="plan reveal">
+        <h3 class="plan__name">Base</h3>
+        <p class="plan__price">$20.000 <span>CLP/mes</span></p>
+        <ul class="plan__list">
+          <li>50 clientes activos</li>
+          <li>120 min de transcripción/mes</li>
+          <li>Minutas ilimitadas</li>
+          <li>Exportación PDF y DOCX</li>
+        </ul>
+        <p class="plan__profile">Abogado independiente activo</p>
+      </article>
+
+      <article class="plan plan--featured reveal">
+        <span class="plan__badge">Recomendado</span>
+        <h3 class="plan__name">Pro</h3>
+        <p class="plan__price">$100.000 <span>CLP/mes</span></p>
+        <ul class="plan__list">
+          <li>50 clientes activos</li>
+          <li>300 min de transcripción/mes</li>
+          <li>Identificación de hablantes</li>
+          <li>Búsqueda semántica</li>
+        </ul>
+        <p class="plan__profile">Litigante con alta carga de reuniones</p>
+      </article>
+
+      <article class="plan reveal">
+        <h3 class="plan__name">Premium</h3>
+        <p class="plan__price">$200.000 <span>CLP/mes</span></p>
+        <ul class="plan__list">
+          <li>Clientes ilimitados</li>
+          <li>800 min de transcripción/mes</li>
+          <li>Estilo redaccional propio</li>
+          <li>Firma electrónica y soporte dedicado</li>
+        </ul>
+        <p class="plan__profile">Estudios jurídicos y CAJ</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GRABADORA ============ -->
+<section class="recorder" id="grabadora">
+  <div class="section__inner">
+    <p class="section__eyebrow section__eyebrow--dark reveal">Herramienta</p>
+    <h2 class="section__title section__title--dark reveal">Generador de minutas</h2>
+    <p class="recorder__hint reveal">Grabe una reunión real: la transcripción y la minuta se generan con IA.</p>
+
+    <div class="recorder__panel reveal">
+      <!-- Recording controls -->
+      <div class="recorder__controls">
+        <button id="recordBtn" class="seal" aria-label="Iniciar grabación">
+          <span class="seal__ring"></span>
+          <span class="seal__waves" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+          </span>
+          <span class="seal__dot"></span>
+        </button>
+        <div class="recorder__status">
+          <span id="statusText">Presione para grabar</span>
+          <span id="timer" class="recorder__timer">00:00</span>
+        </div>
+      </div>
+
+      <!-- Metadata fields -->
+      <div class="recorder__fields">
+        <label>
+          Asunto
+          <input type="text" id="asunto" placeholder="Ej. Revisión de contrato de arrendamiento">
+        </label>
+        <label>
+          Participantes
+          <input type="text" id="participantes" placeholder="Ej. Lic. Pérez, Sra. Gómez">
+        </label>
+      </div>
+
+      <!-- Live transcript -->
+      <div class="recorder__transcript-wrap">
+        <div class="recorder__transcript-label">Transcripción en vivo</div>
+        <div id="transcript" class="recorder__transcript" contenteditable="true" data-placeholder="El texto transcrito aparecerá aquí. Puede editarlo antes de generar la minuta."></div>
+      </div>
+
+      <button id="generateBtn" class="btn btn--primary btn--roll recorder__generate">
+        <span class="btn__roll"><span class="btn__roll-track"><span class="btn__roll-line">Generar minuta</span><span class="btn__roll-line" aria-hidden="true">Generar minuta</span></span></span>
+        <span class="btn__arrow">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="9 5 19 5 19 15"/></svg>
+        </span>
+      </button>
+      <p id="generateError" class="recorder__error hidden"></p>
+
+      <!-- Result -->
+      <div id="resultWrap" class="result hidden">
+        <div class="result__header">
+          <h3>Minuta generada</h3>
+          <div class="result__actions">
+            <button id="copyBtn" class="btn btn--ghost btn--small">Copiar</button>
+            <button id="downloadBtn" class="btn btn--ghost btn--small">Descargar .txt</button>
+          </div>
+        </div>
+        <div id="resultText" class="result__text" contenteditable="true"></div>
+        <p class="result__note">Puede editar el contenido antes de copiarlo o descargarlo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="contact" id="contacto">
+  <div class="section__inner">
+    <p class="section__eyebrow reveal">Hablemos</p>
+    <h2 class="section__title reveal">¿Su despacho necesita esta herramienta?</h2>
+    <p class="contact__intro reveal">Escríbanos y le mostramos cómo integrarla a su flujo de trabajo.</p>
+
+    <form id="contactForm" class="contact__form reveal">
+      <div class="contact__row">
+        <label>
+          Nombre
+          <input type="text" name="nombre" required>
+        </label>
+        <label>
+          Correo electrónico
+          <input type="email" name="correo" required>
+        </label>
+      </div>
+      <label>
+        Despacho / Firma
+        <input type="text" name="despacho">
+      </label>
+      <label>
+        Mensaje
+        <textarea name="mensaje" rows="5" required placeholder="Cuéntenos qué necesita su despacho..."></textarea>
+      </label>
+      <button type="submit" class="btn btn--primary btn--roll">
+        <span class="btn__roll"><span class="btn__roll-track"><span class="btn__roll-line">Enviar mensaje</span><span class="btn__roll-line" aria-hidden="true">Enviar mensaje</span></span></span>
+        <span class="btn__arrow">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="19" x2="19" y2="5"/><polyline points="9 5 19 5 19 15"/></svg>
+        </span>
+      </button>
+      <p id="formNote" class="contact__note"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="section__inner footer__inner">
+    <span>© <span id="year"></span> TALEX. Todos los derechos reservados.</span>
+    <a href="#top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<script src="script-conectado-a-backend.js"></script>
+</body>
+</html>
